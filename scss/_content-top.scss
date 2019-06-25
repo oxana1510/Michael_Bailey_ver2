@@ -1,0 +1,131 @@
+.content-top{
+.container{
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 15rem 4.5rem 17rem;
+p{
+	font-size: 1.8rem;
+	line-height: 3.6rem;
+	max-width: 46.3rem;
+	width: 100%;
+	margin: 0 4.5rem;
+	font-family: $font-p;
+}
+.image-bg{
+	width: 28.4rem;
+	height: 28.4rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 6rem;
+	box-shadow: 0 0 0 0.2rem #7d7d7d;
+	-webkit-box-flex: 0;
+	    -ms-flex: none;
+	        flex: none;
+	background: #fff;
+.img{
+	background: url(../img/bg-men.png) no-repeat;
+	background-position: center bottom;
+	width: 28.4rem;
+	height: 28.4rem;
+	background-size: 110%;
+}
+}
+.social{
+li{
+div{
+	font-size: 2.5rem;
+	color: #6b7e8b;
+	box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.15);
+	background: #feffff;
+	width: 4.1rem;
+	height: 4.1rem;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0 0 0.5rem 0;
+}
+&:hover div{
+	border: 0.2rem solid #fff;
+	background: #6b7e8b;
+	color: #fff;
+}
+}
+}
+}
+}
+@media screen and (max-width: 1090px){
+.content-top .container{
+p{
+	margin: 0 2rem;
+}
+}
+}
+@media screen and (max-width: 970px){
+.content-top .container{
+	padding: 10rem 4.5rem 10rem;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+.image-bg{
+	margin: 0 0 2rem 0;
+}
+p{
+	-webkit-box-flex: 0;
+	    -ms-flex: none;
+	        flex: none;
+	max-width: 100%;
+	margin: 0;
+}
+.social{
+	position: absolute;
+	top: 13rem;
+	right: 4.5rem;
+}
+}
+}
+@media screen and (max-width: 768px){
+.content-top .container{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	 padding: 10rem 2.5rem 10rem;
+.image-bg{
+	width: 28.4rem;
+	height: 28.4rem;
+}
+.social{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: static;
+	flex: 1 100%;
+li div{ 
+	margin: 3rem 1rem 0;
+}
+}
+}
+}
+@media screen and (max-width: 696px){
+.content-top .container{
+	padding: 15rem 2rem 5rem;
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+	padding: 15rem 2rem 10rem;
+}
+}
+}
+
